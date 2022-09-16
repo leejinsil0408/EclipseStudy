@@ -11,4 +11,5 @@ public interface IHumanDao {
 	public void delete(String name) throws Exception;
 	public ArrayList<HumanDto> selectAll() throws Exception;
 	public HumanDto selectName(String name) throws Exception;
+	
 }
